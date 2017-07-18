@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to the Epicodus Credit Union!</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-4 register-spot">
+          <h2>Register a new account:</h2>
+          <div class="form-group">
+            <form id="register">
+              <label for="name">Name:</label>
+              <input type="text" id="name" class="form-control">
+              <label for="initial-deposit">Initial Deposit:</label>
+              <input type="number" id="initial-deposit" class="form-control">
+              <button type="submit" class="btn btn-success">Register Account</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h2>Deposit or withdraw funds:</h2>
+          <form id="editFunds">
+            <label for="deposit">Deposit Amount:</label>
+            <input type="number" id="deposit" class="form-control">
+            <label for="withdrawal">Withdrawal Amount:</label>
+            <input type="number" id="withdrawal" class="form-control">
+            <button type="submit" class="btn btn-info">Deposit/Withdraw</button>
+          </form>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+          <h3>Current Balance:</h3>
+          <div class="balance">
+
+          </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
